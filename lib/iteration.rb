@@ -3,7 +3,7 @@ def join_ingredients(src)
   for i = 0 ...src.length 
   foods << "I love #{src[i][0]} and #{src[i][1]} on my pizza"
   end
-  
+  foods
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
