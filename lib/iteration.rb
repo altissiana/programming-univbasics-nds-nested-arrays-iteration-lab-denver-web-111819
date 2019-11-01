@@ -2,7 +2,7 @@ def join_ingredients(src)
   foods = []
   i = 0
   for i...src.length 
-  foods.push ("I love #{src[i][0]} and #{src[i][1]} on my pizza")
+  foods.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")
   end
    foods
 end
