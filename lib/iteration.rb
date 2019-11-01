@@ -13,6 +13,7 @@ def find_greater_pair(src)
       new_array.push(src[i][0])
     else
       new_array.push(src[i][1])
+    end
   end
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
