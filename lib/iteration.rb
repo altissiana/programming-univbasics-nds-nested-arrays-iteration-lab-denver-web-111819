@@ -1,6 +1,6 @@
 def join_ingredients(src)
   foods = []
-  for i = 0 loop ..src.length 
+  for i = 0 loop do ..src.length 
   foods << "I love #{src[i][0]} and #{src[i][1]} on my pizza"
   end
    foods
