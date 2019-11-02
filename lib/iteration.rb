@@ -20,11 +20,10 @@ end
 
 def total_even_pairs(src)
   total = 0 
-  for i in 0...src.length
+  for i in 0..src.length
     if src[i][0] % 2 == 0 && src[i][1] % 2 == 0
       total += src[i][0] + src[i][1]
      end
-   end
  end
  
 #for i in 0...src.length
