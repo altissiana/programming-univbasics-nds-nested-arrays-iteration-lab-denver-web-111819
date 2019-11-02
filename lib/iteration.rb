@@ -26,7 +26,6 @@ def total_even_pairs(src)
      end
  end
  
-  
   #for i in 0...src.length
   #number1 = src[i][0]
   #number2 = src[i][1]
@@ -36,4 +35,3 @@ def total_even_pairs(src)
   #number2_is_even = number2_remainder == 0
   #if number1_is_even && number2_is_even
   #total += number1 + number2
-
